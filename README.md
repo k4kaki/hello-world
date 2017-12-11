@@ -5,4 +5,4 @@ This is Master branch where the original things are present.
 
 this is just for clarification
 
-this thing is present in only in this Master
+this thing is present in only in this Branch
