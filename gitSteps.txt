@@ -10,3 +10,5 @@ git merge gitSteps
 git puch origin master
 git branch -d gitSteps
 git push origin --delete gitSteps
+
+this is some shit
