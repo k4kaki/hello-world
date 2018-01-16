@@ -1,0 +1,12 @@
+git branch gitSteps
+git checkout gitSteps
+git status
+git add -A
+git commit -m "Commiting changes to the branch"
+git puch -u origin gitSteps
+git checkout master 
+git pull origin master
+git merge gitSteps
+git puch origin master
+git branch -d gitSteps
+git push origin --delete gitSteps
