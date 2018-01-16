@@ -12,3 +12,6 @@ git branch -d gitSteps
 git push origin --delete gitSteps
 
 this is some shit
+checkout gitSteps.txt
+git commit -m "I just addd few more lines to gitStps"
+git commit --amend -m "This is ASLI msg instead of the previous one"
