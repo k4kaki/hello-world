@@ -1,0 +1,9 @@
+#This is how you write in Playbook
+
+- name: Upgrade sudo to the latest version
+
+  apt:
+
+    name: sudo
+
+    state: latest
