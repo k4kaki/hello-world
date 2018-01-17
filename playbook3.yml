@@ -1,0 +1,5 @@
+#This is how you write in Playbook
+
+- name: copy a file, but do not copy if the file already exists
+
+  command: cp /home/dist/file1.txt /usr/someFolder/ creates=file1.txt
