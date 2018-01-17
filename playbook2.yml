@@ -1,0 +1,9 @@
+#This is how you write in Playbook
+
+- name: upgrade all packages
+
+  yum:
+
+    name: sudo
+
+    state: latest
