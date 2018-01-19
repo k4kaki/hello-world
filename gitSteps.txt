@@ -3,15 +3,16 @@ git checkout gitSteps
 git status
 git add -A
 git commit -m "Commiting changes to the branch"
-git puch -u origin gitSteps
+git push -u origin gitSteps
 git checkout master 
 git pull origin master
 git merge gitSteps
-git puch origin master
+git push origin master
 git branch -d gitSteps
 git push origin --delete gitSteps
 
-this is some shit
+if you do some shitty changes to a file called gitSteps.txt Then if you don't want those changes anymore simply you excute the beelow.
+
 checkout gitSteps.txt
 git commit -m "I just addd few more lines to gitStps"
 git commit --amend -m "This is ASLI msg instead of the previous one"
