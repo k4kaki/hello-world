@@ -16,3 +16,16 @@ if you do some shitty changes to a file called gitSteps.txt Then if you don't wa
 checkout gitSteps.txt
 git commit -m "I just addd few more lines to gitStps"
 git commit --amend -m "This is ASLI msg instead of the previous one"
+
+If you mistakenly did some commits some other branch instead of to other branch you can use the below procedure to correct it.
+Let's say you have the branch 'practice' instead of commiting to the practice you commited the code to 'master', in such case
+
+git checkout practice
+git cherry-pick "hash key of the commit which commited to master"
+
+There are three kinds commit resets, soft, mixed and hard
+git reset --soft <hash key>
+git reset <hash key>
+git reset --hard <hash key>
+git clean -df #clears all the untracked changes
+
